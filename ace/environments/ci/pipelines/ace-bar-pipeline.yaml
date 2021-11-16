@@ -12,7 +12,7 @@ spec:
 
   - name: is-source-repo-url
     type: string
-    default: https://github.com/cloud-native-toolkit-demos/ace-customer-details.git
+    default: https://github.com/gitops-ace/ace-customer-details
   - default: ""
     name: is-source-revision
     type: string
@@ -29,7 +29,7 @@ spec:
 
   - name: git-ops-repo-url
     type: string
-    default: https://github.com/cloud-native-toolkit-demos/multi-tenancy-gitops-apps.git
+    default: https://github.com/gitops-ace/multi-tenancy-gitops-apps
   - name: git-ops-repo-private-key
     type: string
     default: '""'

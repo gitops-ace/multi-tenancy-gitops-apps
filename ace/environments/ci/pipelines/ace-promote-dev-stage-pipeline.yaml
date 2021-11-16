@@ -4,7 +4,7 @@ metadata:
   name: ace-promote-dev-stage
 spec:
   params:
-  - default: https://github.com/cloud-native-toolkit-demos/ace-customer-details.git
+  - default: https://github.com/gitops-ace/ace-customer-details
     name: is-source-repo-url
     type: string
   - default: is-source

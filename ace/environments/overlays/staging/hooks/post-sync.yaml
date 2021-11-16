@@ -21,7 +21,7 @@ spec:
           - start
           - ace-promote-stage-prod
           - --param
-          - is-source-repo-url=https://github.com/cloud-native-toolkit-demos/ace-customer-details.git
+          - is-source-repo-url=https://github.com/gitops-ace/ace-customer-details
           - --param
           - is-source-repo-private-key=""
           - --param

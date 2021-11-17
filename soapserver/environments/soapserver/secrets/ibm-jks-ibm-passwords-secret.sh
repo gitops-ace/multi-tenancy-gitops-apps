@@ -15,8 +15,8 @@ oc create secret generic ibm-passwords \
 
 
 oc create secret generic ibm-jks \
---from-file=ibm-ca.jks=/Users/Ritu.Patel@ibm.com/Desktop/ace-prod/github-ace/ace-rest-ws/certs/ibm-ca.jks \
---from-file=ibm-soap-server.jks=/Users/Ritu.Patel@ibm.com/Desktop/ace-prod/github-ace/ace-rest-ws/certs/ibm-soap-server.jks \
+--from-file=ibm-ca.jks=/Users/khongks/Documents/Dev/gitops-ace/ace-rest-ws/certs/ibm-ca.jks \
+--from-file=ibm-soap-server.jks=/Users/khongks/Documents/Dev/gitops-ace/ace-rest-ws/certs/ibm-soap-server.jks \
 --type Opaque \
 --namespace=tools \
 --dry-run=client -o yaml > delete-ibm-jks-secret.yaml
